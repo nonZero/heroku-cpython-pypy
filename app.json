@@ -1,0 +1,15 @@
+{
+  "name": "CPython with pypy as a side.",
+  "description": "An example python heroku app which installs pypy side by side",
+  "buildpacks": [
+    {
+      "url": "https://github.com/weibeld/heroku-buildpack-run.git"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "repository": "https://github.com/nonZero/heroku-cpython-pypy",
+  "keywords": ["python", "pypy" ],
+  "addons": []
+}
